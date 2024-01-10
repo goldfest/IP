@@ -1,0 +1,281 @@
+@font-face {
+  font-family: "HachiMaruPop-Regular";  
+  src: url("../fonts/HachiMaruPop-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Imbue";  
+  src: url("../fonts/Imbue.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+}
+body {
+  background-image: url("../img/fon.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-family: Impact, sans-serif;
+  font-size: 16px;
+}
+
+.navbar-nav li {
+  border: none;
+  font-weight: 600;
+} 
+
+.nav-link {
+  white-space: nowrap;
+  background-color: #DBDD7C;
+  border-radius: 17px;
+  font-style: italic;
+  font-style: none;
+  font-weight: normal;
+}
+
+@media (max-width: 991px) {
+  .nav-link {
+    background-color: transparent; 
+    border-radius: 0; 
+    font-style: normal; 
+  }
+}
+
+
+.nav-link:hover{
+  transition: 1s;
+  opacity: 0.8; 
+  background: #c0c264;
+} 
+
+nav.navbar{
+  background-color: #F5F6BE !important;
+}
+
+.navv{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+@media (max-width: 991px) {
+  .navv {
+    display:block;
+    justify-content:center;
+    
+  }
+}
+
+footer{
+  background-color: #1C1919 !important;
+}
+
+.text_{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.text_1{
+  font-style: italic;
+}
+
+@media (min-width: 1200px) {
+  .mt_ {
+    margin-top: -120px !important;
+    
+  }
+}
+
+.mt_1{
+  margin-top: -15px !important;
+}
+
+.back{
+  background-color: #D0D26E;
+  padding-top: 20px;
+  margin-bottom: -22px;
+  padding-bottom: 100px;
+}
+
+.lead{
+  font-size: 36px !important;
+}
+
+.back_2{
+  background-color: #46214B;
+  border: solid 7px #000000;
+  border-radius: 49px;
+  padding-bottom: 20px;
+}
+
+.ots{
+  padding-top: 75px;
+}
+
+
+.card-img-top{
+  border-radius: 20px;
+}
+
+
+
+@media (min-width: 992px ) {
+  .back_2 {
+    width: 760px;
+    
+  }
+}
+
+@media (max-width: 991px ) {
+  .card{
+    margin-left: 50px !important;
+    
+  }
+
+  .card_{
+    margin-left: 30px !important;
+  }
+
+  .film6{
+    display: block !important;
+  }
+}
+
+@media (min-width: 1200px ) {
+  .back_2 {
+    width: 660px;
+    
+  }
+
+}
+
+@media (max-width: 767px ) {
+
+  .colu{
+    flex-direction: column;
+  }
+
+  .colu2{
+    flex-direction: column;
+  }
+
+  .card{
+    width: 300px !important;
+    margin-bottom: 240px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .card_{
+    width: 300px !important;
+    margin-bottom: 200px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .back_ob{
+    padding-bottom: 40px;
+    margin-left: 0% !important;
+    width: 100% !important;
+  }
+
+  .img-voz{
+    margin-top: 15px !important;
+  }
+
+  .card-text{
+    margin-top: -15px !important;
+  }
+}
+
+@media (max-width: 450px ) {
+
+  .card{
+    width: 200px !important;
+    margin-bottom: 100px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+@media (max-width: 354px ) {
+
+  .card{
+    width: 200px !important;
+    margin-bottom: 100px !important;
+  }
+}
+
+@media (max-width: 270px ) {
+
+  .card{
+    width: 150px !important;
+    margin-bottom: 50px !important;
+  }
+
+  .brand{
+    width: 200px;
+  }
+
+}
+
+@media (max-width: 220px ) {
+
+  .card{
+    width: 130px !important;
+    margin-bottom: 40px !important;
+  }
+
+  .brand{
+    width: 150px;
+  }
+
+  .stil{
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 1400px ) {
+
+  .film7{
+    display: none !important;
+  }
+}
+
+.colu2{
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap; /* Это позволит переносить элементы на новую строку */
+
+}
+.back_ob{
+  background-color: #46214B;
+  border: solid 7px #000000;
+  border-radius: 49px;
+  padding-bottom: 25px;
+  margin-right: 10px;
+  margin-left: 2%; 
+  width: 95%;
+}
+
+.card:hover .card-img-top{
+  transform: scale(1.1); 
+}
+
+.card .card-img-top{
+  transition: transform 0.3s; 
+}
+
+
+p, h6{
+  text-decoration: none;
+}
+

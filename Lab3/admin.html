@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Админка</title>
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" />
+  <link href="css/admin.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand"><img class="brand" src="img/Logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav me-auto mt-xxl-5">
+            <li class="nav-item">
+              <a href="tv.html" class="nav-link px-4 mx-3">ТВ-каналы</a>
+            </li>
+            <li class="nav-item">
+              <a href="film.html" class="nav-link px-4 mx-3">Фильмы</a>
+            </li>
+            <li class="nav-item">
+              <a href="serial.html" class="nav-link px-4 mx-3">Сериалы</a>
+            </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse navv" id="navbarResponsive">
+          <ul class="navbar-nav mb-xxl-3">
+            <!-- <li class="nav-item">
+              <a href="#" class="nav-link px-3 mx-2">
+                <img src="img/" alt="VK">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-3 mx-2">
+                <img src="img/" alt="Tg">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-3 mx-2">
+                <img src="img/" alt="Inst">
+              </a>
+            </li> -->
+            <li class="nav-item">
+              <a href="reg.html" class="nav-link px-3 mx-2">Регистрация</a>
+            </li>
+            <li class="nav-item">
+              <a href="in.html" class="nav-link px-3 mx-2">Вход</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+  </header>
+
+  <!-- <section class="section back admin" style=" font-family: 'Times New Roman', Times, serif !important; font-weight: 600 !important;">
+    <div class="container">
+    <button class="btn btn-primary mb-1 btn-text-adm btn-dob" type="submit" >Добавить пользователя</button>
+    <table class="table table-bordered">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Ф.И.О.</th>
+            <th scope="col">Почта</th>
+            <th scope="col">Номер телефона</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Лобашов Иван Дмитриевич</td>
+            <td>ex@mail.ru</td>
+            <td>37625</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+</section> -->
+<section class="section back admin">
+  <div class="container">
+    <div class="btn-group" role="group">
+        <button id="items-add" class="btn btn-primary mb-1 btn-text-adm btn-dob">Добавить фильм, сериал или телеканал</button>
+
+    </div>
+    <div>
+        <table id="items-table" class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Тип</th>
+                    <th scope="col">Возврастн. кат.</th>
+                    <th scope="col">Название</th>
+                    <th scope="col">Жанр</th>
+                    <th scope="col">Оценка</th>
+                    <th scope="col">Изображение</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+                </thead>
+                <tbody>
+
+                </tbody> 
+        </table>
+    </div>
+  </div>
+</section>
+  
+  <footer class="text-center text_">
+
+    <section class="">
+      <div class="container text-center text-md-start mt-4 pt-5">
+        <a href="#" class="navbar-brand"><img class="brand" src="img/Logo.png"></a>
+
+        <div class="row mt-3">
+
+          <div class="col-md-3 col-lg-4 col-xl-2 mx-auto mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4 text_1"> Тех. поддержка</h6>
+            <p>
+              Ответим на любой ваш вопрос!
+            </p>
+            <p>
+              <a href="#!" class="text-reset">vano00189@mail.ru</a>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-3 col-xl-2 mx-auto mb-4">
+ 
+            <h6 class="text-uppercase fw-bold mb-4 text_1">Для гостей </h6>
+            <p>
+              <a href="#!" class="text-reset">Акции и скидки</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Подарочные карты</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Пользовательское соглашение</a>
+            </p>
+
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <h6 class="text-uppercase fw-bold mb-4 text_1" >О нас</h6>
+            <p>
+              <a href="#!" class="text-reset">Контакты</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Помощь</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Партнерам</a>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-3 col-xl-2 mx-auto mb-4 ">
+            <h6 class="text-uppercase fw-bold mb-4 text_1">Мы в соц. сетях</h6>
+            <div class="social-icons">
+              <a href="#" class="text-reset me-3"><img src="img/vk.png" alt="vk" class="rounded border border-dark"></a>
+              <a href="#" class="text-reset me-3"><img src="img/tg.png" alt="tg" class="rounded border border-dark"></a>
+              <a href="#" class="text-reset"><img src="img/inst.png" alt="Inst" class="rounded border border-dark"></a>
+            </div>
+          </div>
+          <div class="col-md-5 col-lg-3 col-xl-3 mx-auto mb-5 mt_">
+            <h6 class="text-uppercase fw-bold mb-4" ><a href="#" class="navbar-brand"><img class="brand" src="img/icon22.png"></a></h6>
+            <h6 class="text-uppercase fw-bold mb-0 "><a href="#" class="navbar-brand"><img src="img/google.png"></a></h6>
+            <h6 class="text-uppercase fw-bold mb-0 mt_1"><a href="#" class="navbar-brand"><img src="img/Appst.png"></a></h6>
+            
+
+          </div>
+          
+
+        </div>
+
+      </div>
+    </section>
+
+  </footer>
+  
+  <div id="items-update" class="modal fade" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog">
+        <form id="items-form" class="needs-validation" novalidate>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="items-update-title"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <img id="image-preview" src="https://via.placeholder.com/200" class="rounded"
+                            alt="placeholder">
+                    </div>
+                    <input id="items-line-id" type="number" hidden>
+                    <div class="mb-2">
+                        <label for="item" class="form-label">Тип</label>
+                        <select id="item" class="form-select" name="selected" required>
+                        </select>
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label" for="category">Возврастн. кат.</label>
+                        <input id="category" name="category" class="form-control" type="number" value="6" min="6"
+                        step="2" required>
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label" for="nick">Название</label>
+                        <input id="nick" name="nick" class="form-control" type="text" placeholder="Введите название" required>
+                    </div>         
+                    <div class="mb-2">
+                        <label class="form-label" for="genre">Жанр</label>
+                        <select id="genre" class="form-select" name="selectGen" required>
+                        </select>
+                    </div>          
+                    <div class="mb-2">
+                      <label class="form-label" for="ocenka">Оценка</label>
+                      <input id="ocenka" name="ocenka" class="form-control" type="number" placeholder="7" min="0"
+                      step="0.1" required>
+                  </div>         
+                    <div class="mb-2">
+                        <label class="form-label" for="image">Изображение</label>
+                        <input id="image" type="file" name="image" class="form-control" accept="image/*">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="submit" class="btn btn-primary">Сохранить</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="module">
+    import validation from "./js/validation";
+    import { linesForm } from "./js/lines";
+
+    document.addEventListener('DOMContentLoaded', () => {
+        validation();
+        linesForm();
+    });
+</script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  
+</body>
+</html>

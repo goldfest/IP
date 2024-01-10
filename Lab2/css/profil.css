@@ -1,0 +1,153 @@
+
+@font-face {
+    font-family: "HachiMaruPop-Regular";  
+    src: url("../fonts/HachiMaruPop-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+  
+@font-face {
+    font-family: "Imbue";  
+    src: url("../fonts/Imbue.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+body {
+    background-image: url("../img/fon.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+  
+body, html {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-family: Impact, sans-serif;
+    font-size: 16px;
+}
+/* шапка */
+.navbar-nav li {
+    border: none;
+    font-weight: 600;
+} 
+  
+.nav-link {
+    white-space: nowrap;
+    background-color: #DBDD7C;
+    border-radius: 17px;
+    font-style: italic;
+    font-style: none;
+    font-weight: normal;
+}
+  
+@media (max-width: 991px) {
+    .nav-link {
+      background-color: transparent; 
+      border-radius: 0; 
+      font-style: normal; 
+    }
+}
+  
+  
+.nav-link:hover{
+    transition: 1s;
+    opacity: 0.8; 
+    background: #c0c264;
+  } 
+  
+nav.navbar{
+    background-color: #F5F6BE !important;
+  }
+  
+.navv{
+    display: flex;
+    justify-content: flex-end;
+}
+  
+  
+@media (max-width: 991px) {
+    .navv {
+      display:block;
+      justify-content:center;
+      
+    }
+}
+
+  /* Середина */
+.back{
+    background-color: #D0D26E;
+    padding-top: 20px;
+    margin-bottom: -22px;
+    padding-bottom: 100px;
+}
+
+.stil{
+    font-size: 16px !important;
+    font-family: Impact, sans-serif;
+    margin-left: 25px;
+}
+
+.stil2{
+    margin-left: 50px;
+    font-size: 36px !important;
+}
+
+.but2:hover{
+    background-color: #160C57 !important;
+}
+
+.card-body{
+    background: none;
+    border-radius: 15px;
+}
+
+.card{
+    background: #F5F6BE;
+}
+
+/* подвал */
+
+footer{
+    background: #1C1919;
+}
+
+.text_{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.text_1{
+    font-style: italic;
+}
+
+
+@media (max-width: 270px ) {
+    .stil{
+        font-size: 15px !important;
+        margin-left: 0px !important;
+    }
+
+    .brand{
+      width: 200px;
+    }
+
+    body, html {
+        font-size: 10px;
+    }
+  }
+  
+  @media (max-width: 220px ) {
+    .brand{
+      width: 150px;
+    }
+  }
+
+  @media (max-width: 272px ) {
+    .stil2{
+        margin-left: 10px !important;
+        font-size: 25px !important;
+    }
+
+}

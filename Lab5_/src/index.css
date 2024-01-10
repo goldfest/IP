@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "HachiMaruPop-Regular";  
+    src: url("../fonts/HachiMaruPop-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Imbue";  
+    src: url("../fonts/Imbue.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+  }
+  body {
+    background-image: url("../img/fon.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-family: Impact, sans-serif;
+    font-size: 16px;
+  }

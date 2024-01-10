@@ -1,0 +1,42 @@
+main {
+    background-color: var(--color16);
+    color: white;
+    background-size: cover;
+    
+}
+
+.admin{
+    font-family: 'Times New Roman', Times, serif !important; 
+    font-weight: 600 !important;
+    padding-top: 50px !important;
+}
+    
+.tabl_2{
+    margin-top: 25px;
+}
+
+
+@media (max-width: 770px) {
+    .admin{ 
+        font-size: 8px !important;
+    }
+
+    .btn-dob{
+        font-size: 10px !important;
+    }
+
+    .btn-dob-page{
+        font-size: 10px !important;
+    }
+}
+
+.btn-dob{
+    background-color: #a86e38 !important;
+    border: solid 2px #6a6b1f ;
+}
+
+.btn-dob-page{
+    background-color: #92a838 !important;
+    border: solid 2px #6a6b1f ;
+}
+

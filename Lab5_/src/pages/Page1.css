@@ -1,0 +1,199 @@
+@import 'PageMain.css';
+@font-face {
+    font-family: "HachiMaruPop-Regular";  
+    src: url("../fonts/HachiMaruPop-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Imbue";  
+    src: url("../fonts/Imbue.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+  }
+  body {
+    background-image: url("../assets/fon.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    color: black !important;
+    font-family: Impact, sans-serif;
+    font-size: 16px;
+  }
+  .filt-tv{
+    margin-left: 35px;
+    margin-top: 5px !important;
+  }
+  .btn-tag {
+    background-color: #1C1919; 
+    color: white; 
+    transition: transform 0.2s; 
+    margin-right: 25px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.btn-tag:hover {
+    transform: scale(1.1);
+    background-color: #1C1919; 
+    color: white; 
+}
+.stil_tv{
+    font-size: 16px !important;
+    font-family: Impact, sans-serif;
+    margin-left: 25px;
+}
+
+.stil2{
+    margin-left: 30px !important;
+    text-align: left ;
+}
+.stil_tv{
+  margin-left: 30px !important;
+  text-align: left ;
+}
+
+
+
+.card_tv:hover .card-img-top{
+  transform: scale(1.1); 
+}
+
+.card_tv .card-img-top{
+  transition: transform 0.3s;
+}
+.card_tv{
+  transition: transform 0.3s;
+  width: 206px;
+  height: 152px;
+  background: none;
+  border: none;
+  margin-top: 30px; 
+  margin-left: 30px;
+}
+
+.img-voz_tv{
+  position: relative; 
+  margin-left: -5px; 
+  margin-top: -5px;
+  font-size: 12px;
+  color: white;
+  text-align: left;
+}
+
+
+.crd_tv{
+  position: relative;
+  font-size: 10px; 
+  color: #797979; 
+  margin-left: 20px ; 
+  margin-top: -21px; 
+  text-align: left;
+  
+}
+
+.ctt_tv{
+  font-size: 16px; 
+  font-weight: normal; 
+  color: white; 
+  position: relative; 
+  margin-left: -5px ; 
+  margin-top: 5px;
+  text-align: left;
+}
+
+@media (max-width: 1200px ) {
+  .card_tv{
+    margin-left: 65px !important;
+  }
+}
+
+@media (max-width: 767px ) {
+  .card_tv{
+      width: 100px ;
+      margin-bottom: 80px ;
+  }
+
+}
+
+@media (max-width: 1400px ) {
+  .card_tv{
+    margin-left: 40px ;
+  }
+
+}
+
+@media (max-width: 300px ) {
+  .filt-tv{
+      margin-left: auto !important;
+      margin-right: auto !important;
+  }
+  .lead{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+@media (max-width: 991px ) {
+  .card_tv{
+    width: 500px !important;
+    margin-bottom: 200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  
+  .crd_tv{
+    margin-left: 30px ; 
+  }
+  
+  .ctt_tv{
+    margin-left: -0px ; 
+  }
+
+  .img-voz_tv{
+    margin-top: 5px;
+    margin-left: -0px; 
+
+  }
+  
+}
+
+@media (max-width: 575px ) {
+  .card_tv{
+    width: 300px !important;
+    margin-bottom: 100px !important;
+  }
+
+}
+
+@media (max-width: 345px ) {
+  .card_tv{
+    width: 200px !important;
+    margin-bottom: 0px !important;
+  }
+}
+
+
+
+@media (max-width: 241px ) {
+
+  .filt-tv{
+      margin-left: auto !important;
+  }
+
+  .btn-tag {
+      font-size: 10px;
+      margin-right: 15px;
+  }
+
+  .stil2{
+      font-size: 20px !important;
+  }
+}

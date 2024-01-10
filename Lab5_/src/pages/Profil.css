@@ -1,0 +1,30 @@
+.card-pr{
+    background: #F5F6BE;
+}
+
+@media (max-width: 285px) {
+    .button-style {
+      font-size: 12px; 
+      padding: 5px 10px; 
+    }
+    .sect{
+        font-size: 10px !important;
+    }
+  }
+  .stl{
+    font-size: 16px !important;
+  }
+
+  @media (max-width: 285px) {
+    .button-style {
+      font-size: 8px; 
+    }
+    .sect{
+        font-size: 10px !important;
+    }
+  }
+.input-prof{
+  background-color: #f5f7b1;
+  border: none;
+  outline: none;
+}

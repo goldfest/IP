@@ -1,0 +1,25 @@
+footer{
+    background-color: #1C1919 !important;
+  }
+  
+  .text_{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+  }
+  
+  .text_1{
+    font-style: italic;
+  }
+  @media (min-width: 1200px) {
+    .mt_ {
+      margin-top: -120px !important;
+      
+    }
+  }
+  
+  .mt_1{
+    margin-top: -15px !important;
+  }
+  p{
+    margin-left: 0px !important;
+  }

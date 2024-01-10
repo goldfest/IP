@@ -1,0 +1,153 @@
+.card_in-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF; 
+    mix-blend-mode: difference;
+    border-radius: 10px;
+    border: solid #D0D26E 8px;
+    z-index: -1; 
+}
+
+.num{
+    font-size: 15px;
+    color: #000;
+    margin-top: 30px;
+}
+
+.card_in{
+    border-Radius: 10px; 
+    background-Color: rgba(255, 255, 255, 0);
+}
+
+.vih{
+    font-size: 20px !important; 
+    font-family: 'Times New Roman', Times, serif !important; 
+    width: 190px; 
+    margin-left: 50px; 
+    margin-top: 10px; 
+    line-height: 25px;
+    font-style: italic;
+    text-decoration: underline;
+    color: black;
+}
+
+.reg {
+    position: absolute;
+    top: 30px; 
+    right: 40px; 
+    background-color: #DBDD7C;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none !important;
+    color: black;
+    border-radius: 17px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+::placeholder {
+    color: #999;
+    font-style: italic; 
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+@media (max-width: 767px ) {
+
+    .card_in{
+        width: 100% !important;
+        margin-left: 0% !important;
+    }
+
+
+}
+
+@media (max-width: 1000px ) {
+
+    .card_in{
+        margin-left: 0% !important;
+    }
+
+}
+
+@media (max-width: 1400px ) {
+
+    .izo{
+        width: 220px;
+    }
+
+}
+
+@media (max-width: 500px ) {
+
+    .reg{
+        display: none;
+    }
+
+}
+
+@media (max-width: 514px ) {
+
+    .btn-vk{
+        margin-bottom: 10px;
+    }
+
+    .btn-vk{
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 286px ) {
+
+    .brand2{
+        width: 150px !important;
+    }
+
+    .brs{
+        margin-left: 15px !important;
+    }
+
+    .vih{
+        margin-left: 15px !important;
+        width: 100px !important;
+    }
+
+    .vhod{
+        width: 100px !important;
+    }
+
+    .num {
+        font-size: 10px;
+      }
+
+      .lead{
+        font-size: 13px !important;
+        width: 150px !important;
+        margin-left: 20px !important;
+    }
+
+}
+
+@media (max-width: 233px ) {
+
+    .brand2{
+        width: 130px !important;
+    }
+
+    
+    .vhod{
+        font-size: 10px;
+        width: 60px !important;
+    }
+}
+
+.card-body{
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
